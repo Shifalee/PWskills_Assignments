@@ -1,0 +1,11 @@
+<!--Explain the use of grid-auto-row and grid-auto-column using code examples.-->
+
+Grid-auto-row:  The grid-auto-rows CSS property is part of the CSS Grid Layout specification, 
+                specifying the size of the grid rows that were created without having an explicit size.
+this property sets the size of implicit rows and any other rows that have not been explicitly sized 
+in the grid-template-rows property.
+
+Grid-auto-column: The grid-auto-columns CSS property is part of the CSS Grid Layout specification,
+                  specifying the size of the grid columns that were created without having an explicit 
+size. this property sets the size of implicit columns and any other columns that have not been 
+explicitly sized in the grid-template-columns property.
