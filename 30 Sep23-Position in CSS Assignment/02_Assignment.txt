@@ -1,0 +1,30 @@
+<!--Explain the difference between Absolute and Relative positioning.-->
+
+
+Absolute Path :-
+
+1.It points to a specific location in the file system,irrespective
+ of the current working directory.
+2.It is also referred to as full path or file path.
+3.It refers to the location of a file or directory relative 
+ to the root directory in Linux.
+4.Absolute URLs are used to link to other websites that are not located
+ on the same domain.
+5. Syntax -:
+{
+    position:absolute;
+}
+
+Relative Path :-
+
+1.It points to the location of a directory using current
+ directory as a reference.
+2.It is also referred to as non-absolute path.
+3.It refers to the location of a file or directory relative to the
+ current directory.
+4.Relative URLs are used to link to other websites that are 
+ located on the same domain.
+5. Syntax -:
+{
+    position:relative;
+}
