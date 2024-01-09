@@ -1,0 +1,34 @@
+<!--What is SEO and explain the importance of SEO?-->
+
+
+SEO :-SEO stands for search engine optimization. SEO is a set of practices designed to improve
+      the appearance, positioning, and usefulness of multiple types of content in the organic
+search results. This content can include web pages, video media, images, local business listings, 
+and other assets. Because organic search is the top method via which people discover and access 
+online content, utilizing SEO best practices is essential for ensuring that the digital content 
+you publish can be found and chosen by the public, increasing your website’s organic traffic.
+
+
+Importance of SEO-:
+
+1. Traditional Organic Results -:  Google’s most familiar results are the traditional organic results,
+                                  which consist of links to website pages ranked in a particular order
+based on Google’s algorithms. Search engine algorithms are a set of formulae the search engine uses to 
+determine the relevance of possible results to a user’s query.
+
+2. SERP Features -: Beyond the traditional organic results, search engines can surface a variety of
+                    other displays which can be categorized under the umbrella term “SERP features”.
+
+3. Visibility and Rankings-: When searching for a service or product online, users are more likely 
+                            to choose one of the top five suggestions that the search engine shows 
+them. After all, while Google may return thousands upon thousands of search results for any given term.
+
+4. Web Traffic-: To put it simply—if potential customers can’t find your website, you miss 
+                 out on sales opportunities. SEO increases your organic search engine traffic, 
+in turn increasing the number of visitors your website sees each day. This directly correlates to an
+increase in sales—because the more relevant people see your site, the more chances you have to sell to
+them. 
+
+5. User Experience-: A well-optimized website clearly communicates what product or service is being 
+                    offered, shows how to obtain it, and answers any questions surrounding it. User 
+experience is a major ranking factor for Google.
