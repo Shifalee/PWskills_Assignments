@@ -1,0 +1,27 @@
+<!-- Explain` the role of the following key properties in` the Flexbox layout model.-->
+
+
+1.Justify-content: The justify-content property is a sub-property of the Flexible Box Layout module.
+                   It defines the alignment along the main axis. It helps distribute extra free space 
+leftover when either all the flex items on a line are inflexible, or are flexible but have reached
+their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+
+2.align-items: The align-items property defines the default behavior for how items are laid out along
+               the cross axis (perpendicular to the main axis).
+Imagine a horizontal flexbox layout. That horizontal flow is the main axis, so align-items is the 
+alignment opposite that, on the vertical axis. Bear in mind that changes when the main axis changes, 
+and the cross axis changes with it.
+
+3.gap:The gap property in CSS is a shorthand for row-gap and column-gap, specifying the size of 
+      gutters, which is the space between rows and columns within grid, flex, and multi-column layouts.
+
+4.flex-direction: The flex-direction property is a sub-property of the Flexible Box Layout module.
+                  It establishes the main-axis, thus defining the direction flex items are placed in
+ the flex container.
+ The flex-direction property defines in which direction the container wants to stack the flex items.
+
+ 5.Flex-wrap: The flex-wrap property is a sub-property of the Flexible Box Layout Module.
+              It defines whether the flex items are forced in a single line or can be flowed into 
+multiple lines. If set to multiple lines, it also defines the cross-axis which determines the direction
+new lines are stacked in, aiding responsiveness layout behavior without CSS media queries.
+
