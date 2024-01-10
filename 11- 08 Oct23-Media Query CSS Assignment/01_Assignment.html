@@ -1,0 +1,35 @@
+<!--Create a simple webpage with a header, a main content section, and a footer. Apply a media
+     query that changes the background color of the header to blue when the screen width is less
+than 600px.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Webpage</title>
+    <style>
+      header {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+      @media screen and (max-width: 600px) {
+        header {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Header</h1>
+    </header>
+    <main>
+      <p>Main Content</p>
+    </main>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>

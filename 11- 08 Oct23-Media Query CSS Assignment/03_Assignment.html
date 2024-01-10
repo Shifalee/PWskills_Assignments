@@ -1,0 +1,40 @@
+<!--Create a navigation bar with five links. Apply a media query that converts the navigation 
+    into a vertical list for screens smaller than 768px and also changes the background color
+ to gray.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+      }
+      .navbar a {
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+      }
+      @media screen and (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          align-items: center;
+          background-color: gray;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </body>
+</html>
