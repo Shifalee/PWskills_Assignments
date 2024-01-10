@@ -1,0 +1,20 @@
+<!--Explain the difference between justify-items and justify-self using code example-->
+
+Justify-items: The justify-items property is set on the grid container to give child elements
+              (grid items) alignment in the inline direction.
+
+Example:   #container {
+             display: grid;
+            justify-items: center;
+             }
+
+
+
+Justify-self : The justify-self property aligns a grid item within its grid cell 
+              in the inline direction.inline direction is left to right and block 
+direction is downward.
+
+Example:   .red {
+                display: grid;
+                justify-self: right;
+               }
