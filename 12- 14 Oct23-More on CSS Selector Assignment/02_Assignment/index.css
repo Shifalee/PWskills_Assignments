@@ -1,0 +1,16 @@
+/*task one- use desendant combinator selector to remove list style bullet points*/
+ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*task two- use child combinator to display the menu list item inline*/
+ul>li{
+    display:inline;
+}
+
+/*task three-use Adjacent sibling combinator selector to apply
+some margin between the menu list item*/
+li+li{
+    margin:10px;
+}
