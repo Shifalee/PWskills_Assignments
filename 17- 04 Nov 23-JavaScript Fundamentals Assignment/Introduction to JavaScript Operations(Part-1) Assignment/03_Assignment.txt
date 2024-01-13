@@ -1,0 +1,43 @@
+<!--Q3. Differentiate between unary, and binary operators in JavaScript. Give examples of each.-->
+
+Unary Operator- These operators require one operand for operation. Providing two or more can result in a syntax error. 
+
+Example-
+1.typeof Operator-The typeof operator returns the data type of a value. It requires only one operand. 
+typeof "hello"
+// string
+
+2.delete Operator-You can use the delete operator to delete an item in an array or delete a property in an object.
+const array = [2,3,4]
+delete array[2]
+
+3.Unary plus operator-The unary plus operator attempts to convert a non-number value to a number. It returns NaN where impossible.
++"200"
+// 20 - number
++false
+// 0 - number representation
++"hello"
+// NaN
+
+Binary Operator-: These operators require two operands for operation. If one or more than two operands are provided, such operators result in a syntax error.
+
+Example-
+1.Arithmetic Operator-All arithmetic operators are binary operators. You have the first operand on the left of the operator, and the second operand on the right of the operator. 
+10 + 20
+// 30
+20 - 5
+// 15
+30 / 6
+// 5
+
+2.Comparison Operator-All comparison operators also require two operands.
+80 < 20
+// false
+10 < 40
+// true
+2 >= 2
+// true
+
+3.Assignment Operator-The assignment operator is also a binary operator as it requires two operands.
+const number = 20
+

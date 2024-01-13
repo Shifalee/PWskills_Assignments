@@ -1,0 +1,60 @@
+<!--Q.Describe the categorization of operators in JavaScript based on their functionality.
+Provide examples form each category.
+
+Operators in JavaScript are cateorized based on their functionality into the following groups:
+
+1.Arithmetic Operator-: These operators perform mathematical operations on operands. Operands can be
+numbers or variables.
+// Addition (+)
+const sum = 1 + 2; // sum is now equal to 3
+// Subtraction (-)
+const difference = 10 - 5; // difference is now equal to 5
+// Multiplication (*)
+const product = 3 * 4; // product is now equal to 12
+// Division (/)
+const quotient = 12 / 3; // quotient is now equal to 4
+// Exponentiation (**)
+const power = 2 ** 3; // power is now equal to 8
+// Modulo (%)
+const remainder = 10 % 3; // remainder is now equal to 1
+
+2.Assignment Operator:- These operators assign values to variables.
+// Assignment operator (=)
+const myVariable = 10;
+// Addition assignment operator (+=)
+myVariable += 5; // myVariable is now equal to 15
+// Subtraction assignment operator (-=)
+myVariable -= 5; // myVariable is now equal to 10
+// Multiplication assignment operator (*=)
+myVariable *= 2; // myVariable is now equal to 20
+// Division assignment operator (/=)
+myVariable /= 2; // myVariable is now equal to 10
+// Modulo assignment operator (%=)
+myVariable %= 3; // myVariable is now equal to 1
+
+3.Comparision Operator:- These operators compare two values and return a Boolean value (true or false).
+// Equal to (==)
+const isEqual = 10 == 10; // isEqual is now equal to true
+// Not equal to (!=)
+const isNotEqual = 10 != 10; // isNotEqual is now equal to false
+// Greater than (>)
+const isGreaterThan = 10 > 5; // isGreaterThan is now equal to true
+// Less than (<)
+const isLessThan = 10 < 5; // isLessThan is now equal to false
+// Greater than or equal to (>=)
+const isGreaterThanOrEqual = 10 >= 10; // isGreaterThanOrEqual is now equal to
+true
+// Less than or equal to (<=)
+const isLessThanOrEqual = 10 <= 5; // isLessThanOrEqual is now equal to false
+
+4.Logical Operator:- These operators perform logical operations on Boolean values.
+// AND (&&)
+const isAndTrue = true && true; // isAndTrue is now equal to true
+const isAndFalse = true && false; // isAndFalse is now equal to false
+// OR (||)
+const isOrTrue = true || false; // isOrTrue is now equal to true
+const isOrFalse = false || false; // isOrFalse is now equal to false
+// NOT (!)
+const isNotTrue = !true; // isNotTrue is now equal to false
+const isNotFalse = !false; // isNotFalse is now equal to true
+

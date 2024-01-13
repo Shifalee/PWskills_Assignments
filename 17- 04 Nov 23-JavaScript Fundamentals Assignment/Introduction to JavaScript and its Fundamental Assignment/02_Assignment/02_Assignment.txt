@@ -1,0 +1,28 @@
+<!--Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.-->
+
+
+Key Difference between JavaScript and HTML.
+
+JavaScript -: 
+
+1.JavaScript is a high-level scripting language introduced by Netscape to be run on the client-side of the web browser.
+2.JavaScript is an advanced programming language that makes web pages more interactive and dynamic.
+3.JavaScript simply adds dynamic content to websites to make them look good.
+4.It manipulates content to create dynamic web pages.
+5.JavaScript files are saved with .js extension.
+6.JavaScript is not cross-browser compatible (some functions may not work on every browser).
+
+
+HTML-:
+
+1.HTML is the most basic building block of the Web. It defines the meaning and structure of web content.
+2.HTML is a standard markup language that provides the primary structure of a website.
+3.HTML work on the look of the website without the interactive effects and all.
+4.HTML pages are static which means the content cannot be changed.
+5.HTML files are saved with an extension .html or .htm .
+6.HTML is cross-browser compatible (it works well with all versions of the browser).
+
+
+
+
