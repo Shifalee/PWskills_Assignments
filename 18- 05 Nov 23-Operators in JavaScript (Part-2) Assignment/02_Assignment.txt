@@ -1,0 +1,9 @@
+<!--Describe the usage of the comma operator in JavaScript and provide an example.-->
+
+Comma Operator-: Comma Operator (,) mainly evaluates its operands from left to right sequentially and returns the value of the rightmost operand. A comma operator is used as a separator for multiple expressions at a place that requires a single expression. When a comma operator is placed in an expression, it executes each expression and returns the rightmost expression.
+
+
+Example of comma operator-
+
+const a=10, b=20, c=30;
+console.log(a,b,c);
