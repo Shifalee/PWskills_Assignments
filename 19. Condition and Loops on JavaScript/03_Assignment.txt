@@ -1,0 +1,52 @@
+<!--What are loops ,and what do we need them? Explain different types of loops with their syntax and examples.-->
+
+Loops-: Loops are used in programming to repeatedly run a block of code.
+ Looping in programming languages is a feature that facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true.
+
+1.for Loop
+2. While Loop
+3. Do While Loop
+
+1.for Loop-We use for loop to run a piece of code until the set condition turns false.
+
+syntax-
+for (initialization;  condition; increment/decrement) {
+    statement(s)
+}
+Example-
+for(let i=0;i<3;i++)
+{
+    let name="Shifalee"
+    console.log(name);
+}
+
+2.While Loop-This loop keeps on running as long as the condition is true.
+
+syntax-
+while (boolean condition) {
+    loop statements...
+}
+Example-
+let x = 5;
+ 
+while (x == 5) {
+    console.log("In the loop");
+}
+
+3.Do while Loop- Do while is similar to while loop with one difference that the 1st iteration runs always, and
+later iterations run after the condition evaluates to true.
+
+Syntax-
+do {
+    Statements..
+}
+while (condition);
+Example-
+let result='';
+let i=0;
+do{
+    i=i+1;
+    result=result+i;
+}
+while(i<7);
+console.log(result);
