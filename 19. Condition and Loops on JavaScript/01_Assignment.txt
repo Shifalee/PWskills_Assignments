@@ -1,0 +1,135 @@
+<!--What are conditional statements?Explain conditional statement with syntax and example.-->
+
+Conditional Statements- Conditional statements in JavaScript allow you to execute specific blocks of code based on conditions. If the condition meets then a particular block of action will be executed otherwise it will execute another block of action that satisfies that particular condition.
+
+1.if Statement
+2.if-else Statement
+3.Nested if Statement
+4.else if Statement
+5.switch Statement
+6.Ternary Operator
+
+1.if Statement-: The if statement is used to evaluate a particular condition. If the condition holds true, the associated code block is executed.
+
+Syntax- 
+ if ( condition ) {
+// If the condition is met, 
+ //code  will get executed.
+ }
+Example-   
+let num = 20; 
+if (num % 2 === 0) { 
+console.log("Given number is even number."); 
+} 
+
+2.if-else Statement-: The if-else statement will perform some action for a specific condition. Here we are using the else statement in which the else statement is written after the if statement and it has no condition in their code block.
+
+Syntax- 
+if (condition1) {
+    // Executes when condition1 is true
+    }
+    else {
+    // Executes when condition1 is false
+     }
+Example-
+let age = 25; 
+if (age >= 18) { 
+    console.log("You are eligible of driving licence") 
+} else { 
+    console.log("You are not eligible for driving licence") 
+};
+
+3.Nested if Statement-: We can nest if else statements inside another if else statements.
+Syntax-
+if(condition1){
+    if(condition2){
+        //We can add as many nested if as we want
+    }
+}
+Example-
+if(isLoggedIn){
+    if(isAdmin){
+        console.log("The logged in user is admin.");
+    }
+    else{
+        console.log("The logged in user is not an admin.");
+    }
+}
+
+4.else-if Statement-: The else if statement in JavaScript allows handling multiple possible conditions and outputs, evaluating more than two options based on whether the conditions are true or false.
+Syntax-
+if (1st condition) {
+    // Code for 1st condition
+} else if (2nd condition) {
+    // ode for 2nd condition
+} else if (3rd condition) {
+    // Code for 3rd condition
+} else {
+    //  ode that will execute if all 
+    // above conditions are false
+}
+Example-
+const num = 0; 
+  
+if (num > 0) { 
+    console.log("Given number is positive."); 
+} else if (num < 0) { 
+    console.log("Given number is negative."); 
+} else { 
+    console.log("Given number is zero."); 
+};
+
+5.Switch Statement-:As the number of conditions increases, you can use multiple else-if statements in JavaScript. but when we dealing with many conditions, the switch statement may be a more preferred option.
+Syntax-
+switch (expression) {
+    case value1:
+        statement1;
+        break;
+    case value2:
+        statement2;
+        break;
+    . . .
+    case valueN:
+        statementN;
+        break;
+    default:
+        statementDefault;
+};
+Example-
+const marks = 85; 
+  
+let Branch; 
+  
+switch (true) { 
+    case marks >= 90: 
+        Branch = "Computer science engineering"; 
+        break; 
+    case marks >= 80: 
+        Branch = "Mechanical engineering"; 
+        break; 
+    case marks >= 70: 
+        Branch = "Chemical engineering"; 
+        break; 
+    case marks >= 60: 
+        Branch = "Electronics and communication"; 
+        break; 
+    case marks >= 50: 
+        Branch = "Civil engineering"; 
+        break; 
+    default: 
+        Branch = "Bio technology"; 
+        break; 
+} 
+  
+console.log(`Student Branch name is : ${Branch}`);
+
+6.Ternary Operator-:The conditional operator, also referred to as the ternary operator (?:), is a shortcut for expressing conditional statements in JavaScript.
+Syntax-
+condition ? value if true : value if false
+Example-
+let age = 21; 
+  
+const result = (age >= 18) ? "You are eligible to vote.": "You are not eligible to vote."; 
+  
+console.log(result);
+    
