@@ -1,0 +1,24 @@
+/* Q,5.Describe the process of contribution to any open'source project on GitHub in a step'by'step manner.*/
+
+To contribute to any project on GitHub, you can follow these steps:-
+
+1.Find a Project to contribute to- There are millions of projects on GitHub, so you should be able to find one that interests you and that you have the skills to contribute to. You can search for projects by keyword, language, or topic.
+
+2.Read the projects contributions guidelines- Most projects have a contribution guidelines document that explains how to contribute to the project. This document will tell you what kind of contributions are welcome, how to format your code, and how to submit your changes.
+
+3.Create a fork of a Project- A fork is a copy of the project that you can make changes to without affecting the main codebase. To create a fork, click tht Fork button on the project's page.
+
+4.Clone the fork to your local computer- Once you have forked the project, you need to clone it to your local computer. This will create a copy of the project on your hard drive that you can work on.
+
+5.Make your changes- Make the changes to the code that you want to contribute. Be sure to follow the
+project's contribution guidelines and to test your changes thoroughly.
+
+6.Commit your changes- Once you are happy with your changes, commit them to your local repository. This
+will create a snapshot of the code at that point in time.
+
+7.Push your changes to your fork- Once you have committed your changes, push them to your fork on GitHub. This will make your changes available to other developers.
+
+8.Create a pull request- A pull request is a way to request that your changes be merged into the main
+codebase. To create a pull request, click the Pull Requests button on your fork's page.
+
+9.Wait for your pull request to be reviewed- Other developers will review your changes and provide feedback. Once your changes are approved, they will be merged into the main codebase.
