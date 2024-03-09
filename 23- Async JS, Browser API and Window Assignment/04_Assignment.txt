@@ -1,0 +1,44 @@
+/* Compare Promises to callbacks and discuss why Promises are preferred for managing asynchronous code.*/
+
+
+Callbacks and Promises are both mechanisms used in JavaScript for managing asynchronous code execution. 
+Comparison in Promises and Callbacks-
+
+Callbacks:
+
+1.Traditional Approach- Callbacks have been the traditional way to handle asynchronous operations in JavaScript.
+
+2.Function Passing- With callbacks, you pass a function as an argument to another function. This function (the callback) gets executed when the asynchronous operation completes.
+
+3.Callback Hell- Nested callbacks can lead to what is commonly referred to as "callback hell" or "pyramid of doom," making code hard to read, understand, and maintain.
+
+4.Error Handling- Error handling in callback-based code can be cumbersome, often requiring checks and conditional branching within each callback.
+
+5.Limited Composition- It can be challenging to compose multiple asynchronous operations together in a clean and manageable way.
+
+
+Promises:
+
+1.Built-in Asynchronous Operations- Promises are built-in objects in JavaScript introduced to improve the handling of asynchronous operations.
+
+2.Chaining- Promises support method chaining, allowing for a more linear and readable style of code. This helps mitigate the issue of callback hell.
+
+3.Error Handling- Promises have built-in error handling mechanisms through the .catch() method, allowing for cleaner and more structured error handling compared to callbacks.
+
+4.Asynchronous Composition- Promises enable better composition of asynchronous operations through methods like Promise.all() and Promise.race(), making it easier to manage multiple asynchronous tasks.
+
+5.Clearer Intent- Promises provide a clearer intent of asynchronous operations and their outcomes, making code more understandable and maintainable.
+
+6.Asynchronous/Await Syntax- Async/await, introduced in ES2017, provides a synchronous-looking syntax for writing asynchronous code using Promises, further enhancing readability and ease of use.
+
+
+Why Promises are Preferred:
+
+1.Readability- Promises offer cleaner and more readable code compared to nested callbacks, reducing the likelihood of errors and making code easier to maintain.
+
+2.Error Handling- Promises provide better error handling mechanisms, making it easier to catch and handle errors in asynchronous code.
+
+3.Composition- Promises facilitate easier composition of asynchronous operations, allowing developers to write more modular and maintainable code.
+
+4.Asynchronous/Await- The introduction of async/await syntax built on top of Promises provides an even more synchronous-like coding experience for handling asynchronous operations
+
