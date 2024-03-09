@@ -1,0 +1,43 @@
+/*Define XMLHttpRequest object, and How is it used in AJAX? */
+
+
+The XMLHttpRequest object is a fundamental component of the AJAX (Asynchronous JavaScript and XML) technology. It enables web pages to communicate with servers asynchronously, meaning that the page can send requests to the server and retrieve data without having to reload the entire page.
+
+How it works and how it is used in AJAX-
+
+1.Creation of XMLHttpRequest object- In JavaScript, you create an instance of the XMLHttpRequest object using its constructor function XMLHttpRequest().
+
+Example-
+var xhr = new XMLHttpRequest();
+
+2.Setting up the request-  After creating the XMLHttpRequest object, you configure it by specifying the HTTP method, the URL of the resource you want to interact with, and any optional parameters.
+
+Example-
+xhr.open('GET', 'https://example.com/data', true);
+
+In this example, open() initializes the request. The first parameter is the HTTP method ('GET', 'POST', 'PUT', 'DELETE', etc.), the second parameter is the URL of the server-side resource, and the third parameter indicates whether the request should be asynchronous (true) or synchronous (false).
+
+3.Sending the request- Once the XMLHttpRequest object is configured, you send the request to the server using the send() method.
+
+Example-
+xhr.send();
+
+4.Handling the response- After the request is sent to the server, you define a callback function to handle the response when it's received. You do this by setting the onreadystatechange property to a function that will be called whenever the readyState property of the XMLHttpRequest object changes.
+
+Example-
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+        if (xhr.status == 200) {
+            // Handle successful response
+            console.log(xhr.responseText);
+        } else {
+            // Handle error response
+            console.log('Error: ' + xhr.status);
+        }
+    }
+};
+
+In this example, readyState represents the state of the request, and XMLHttpRequest.DONE indicates that the request is complete. status contains the HTTP status code returned by the server (e.g., 200 for success, 404 for not found, etc.), and responseText contains the response data returned by the server.
+
+
+5.Processing the response: Finally, within the callback function, you can process the response data as needed, such as updating the content of the webpage with the retrieved data.
