@@ -1,0 +1,35 @@
+/*Describe the purpose and usage of the localStorage and sessionStorage APIs in web development . Give suitable example for each. */
+
+
+The localStorage and sessionStorage APIs are part of the Web Storage API in JavaScript, providing mechanisms for storing key-value pairs locally within the user's browser. 
+
+localStorage:
+
+1.Purpose- localStorage allows developers to store data with no expiration date. The data persists even after the browser window is closed and across browser sessions.
+
+2.Usage- Data stored in localStorage remains available until explicitly removed by the web application or cleared by the user.
+
+Example: Storing user preferences or settings that persist across browser sessions.
+
+// Storing data in localStorage
+localStorage.setItem('theme', 'dark');
+
+// Retrieving data from localStorage
+var theme = localStorage.getItem('theme');
+console.log('Theme:', theme); 
+
+
+sessionStorage:
+
+1.Purpose- sessionStorage allows developers to store data for the duration of the page session. The data is cleared when the page session ends (e.g., when the browser tab is closed).
+
+2.Usage- Data stored in sessionStorage is available only within the same browser tab or window where it was set.
+
+Example: Storing temporary user data or state information needed for the current session.
+
+// Storing data in sessionStorage
+sessionStorage.setItem('username', 'exampleUser');
+
+// Retrieving data from sessionStorage
+var username = sessionStorage.getItem('username');
+console.log('Username:', username); 
