@@ -1,0 +1,24 @@
+/*List and briefly explain some common Browser APIs available to JS developers*/
+
+Browser APIs (Application Programming Interfaces) are sets of tools and protocols provided by web browsers to enable developers to interact with various features and functionalities of web applications. 
+Some common Browser APIs available to JavaScript developers:
+
+1.DOM (Document Object Model) API- The DOM API provides a structured representation of the HTML document as a tree of objects. It allows developers to manipulate the structure, content, and style of web pages dynamically. Common operations include selecting elements, modifying their attributes, and adding or removing elements from the document.
+
+2.XHR (XMLHttpRequest) API- The XHR API allows for making HTTP requests from JavaScript, enabling communication between the browser and a server. It's commonly used for fetching data, making AJAX requests, and updating the content of web pages without a full page reload.
+
+3.Fetch API- The Fetch API is a modern alternative to XHR for making network requests. It provides a more flexible and powerful interface for fetching resources asynchronously across the network. The Fetch API is Promise-based and supports features like request and response objects, streaming responses, and CORS (Cross-Origin Resource Sharing).
+
+4.Web Storage API- The Web Storage API provides mechanisms for storing key-value pairs locally within the user's browser. It includes two storage mechanisms: localStorage and sessionStorage. localStorage stores data with no expiration date, while sessionStorage stores data for the duration of the page session.
+
+5.IndexedDB API- IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files and blobs. It provides a way for web applications to store data locally, enabling offline access and efficient retrieval of large datasets.
+
+6.Geolocation API- The Geolocation API allows web applications to access the user's geographical location information through the browser. It provides methods for retrieving the device's current location coordinates, altitude, speed, and accuracy, enabling location-based services and applications.
+
+7.Canvas API- The Canvas API provides a way for dynamically rendering graphics, animations, and images directly in the browser using JavaScript. It allows developers to draw shapes, lines, text, and images on an HTML canvas element programmatically.
+
+8.Web Audio API- The Web Audio API enables developers to create and manipulate audio content in web applications. It provides advanced features for generating, processing, and controlling audio streams, including playback, recording, spatialization, and synthesis.
+
+9.WebRTC (Web Real-Time Communication) API- The WebRTC API allows for real-time communication between web browsers, enabling peer-to-peer audio, video, and data sharing without the need for plugins or external software. It's commonly used for building video conferencing, voice calling, and file sharing applications.
+
+10.Service Worker API- The Service Worker API enables developers to build powerful offline-capable web applications by running scripts in the background, independent of the web page. Service workers can intercept and handle network requests, cache resources, and provide offline functionality, enhancing performance and user experience.
